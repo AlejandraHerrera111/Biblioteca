@@ -139,6 +139,44 @@ if (prestamos.filaSeleccionada()) {
     // Realizar la devolución de libros
     prestamos.borrarCampos();
 }
-´´´
+```
 
+## Clase _03_Registro
+
+La clase `_03_Registro` representa una interfaz gráfica para mostrar libros disponibles y realizar préstamos. A continuación, se detalla su estructura y funcionalidades.
+
+## Descripción
+La clase _03_Registro representa la interfaz gráfica de una aplicación de gestión de libros. Permite a los usuarios ver libros disponibles, realizar préstamos y gestionar la información de los libros. Aquí hay una descripción de sus principales características:
+
+- **Interfaz Gráfica:** La clase crea una ventana de interfaz de usuario que muestra una tabla con libros disponibles. Los usuarios pueden interactuar con la tabla para seleccionar libros y realizar préstamos.
+
+- **Panel de Opciones:** La interfaz incluye un panel de opciones con botones que permiten a los usuarios acceder a diferentes funcionalidades de la aplicación, como búsqueda de libros, agregar nuevos libros, gestionar préstamos, ver libros disponibles y cerrar sesión.
+
+- **Botón de Préstamo:** El botón "PRESTAR" está inicialmente deshabilitado y se activa cuando se selecciona una fila en la tabla. Al hacer clic en este botón, se realiza un préstamo de un libro, se registra la fecha del préstamo y se elimina la fila correspondiente de la tabla.
+
+- **Actualización de la Tabla:** La tabla se actualiza con datos de libros disponibles desde un archivo. Los libros se muestran en filas con información como el título, autor y ISBN.
+
+## Ejemplos de Uso
+
+### 1. Visualizar Libros Disponibles
+Cuando se inicia la aplicación, la clase _03_Registro muestra una tabla con libros disponibles. Los usuarios pueden desplazarse por la tabla y ver información detallada de cada libro.
+
+### 2. Realizar un Préstamo
+- Paso 1: El usuario selecciona un libro haciendo clic en la fila correspondiente de la tabla.
+- Paso 2: El botón "PRESTAR" se habilita cuando se selecciona un libro.
+- Paso 3: El usuario hace clic en "PRESTAR" para realizar el préstamo.
+- Paso 4: La fecha del préstamo se registra y se elimina la fila del libro prestado de la tabla.
+
+### 3. Navegación entre Funcionalidades
+Los botones en el panel de opciones permiten a los usuarios acceder a diferentes partes de la aplicación:
+- "BUSCAR" abre la funcionalidad de búsqueda de libros.
+- "AGREGAR" permite agregar nuevos libros a la base de datos.
+- "PRESTAMOS" permite gestionar los préstamos activos.
+- "LIBROS DISPONIBLES" recarga la lista de libros disponibles.
+- "CERRAR SESIÓN" cierra la aplicación.
+
+### 4. Actualización de la Tabla
+La tabla se actualiza automáticamente con datos de libros disponibles desde un archivo. Cuando se agrega un nuevo libro o se realiza un préstamo, la tabla se actualiza para reflejar los cambios.
+
+Estos ejemplos de uso ilustran cómo la clase _03_Registro se integra en la aplicación y cómo los usuarios pueden interactuar con ella para gestionar libros y realizar préstamos. La clase brinda una interfaz intuitiva y funcionalidades esenciales para la administración de una biblioteca o sistema de préstamo de libros.
 
