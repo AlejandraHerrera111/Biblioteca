@@ -33,25 +33,6 @@ En esta sección del README, puedes explicar cómo los usuarios pueden interactu
 
 Si tu proyecto es de código abierto y acepta contribuciones, puedes incluir información sobre cómo otros desarrolladores pueden contribuir a la clase _00_Buscar. Esto podría incluir pautas para enviar cambios y el proceso de revisión.
 
-### Ejemplo de Uso
-
-### Clase `_00_Buscar`
-
-La clase `_00_Buscar` es una parte fundamental de nuestro sistema de gestión de bibliotecas. Permite a los usuarios buscar libros en nuestra biblioteca y ver los resultados en una interfaz amigable.
-
-#### Métodos y Funcionalidades
-
-- `getTxtBuscar()`: Este método recopila el término de búsqueda ingresado por el usuario.
-- `buscarMostrarLibros()`: Realiza la búsqueda de libros en nuestra base de datos y muestra los resultados en la tabla de la interfaz.
-
-#### Uso
-
-Para buscar libros en nuestra biblioteca, simplemente ingresa las palabras clave en el campo de búsqueda y haz clic en el botón de búsqueda. Los resultados se mostrarán en la tabla de resultados.
-
-#### Contribución
-
-Si deseas contribuir a esta clase, sigue nuestras pautas de contribución en [CONTRIBUTING.md](CONTRIBUTING.md).
-
 #### Ejemplo de Uso
 
 java
