@@ -1,11 +1,11 @@
 # Biblioteca
 
-## [Clase _00_Buscar](##Clase-_00_buscar)
-## [Clase _01_Agregar](#clase-_01_agregar)
-## [Clase _02_Prestamos](#clase-_02_prestamos)
-## [Clase _03_Registro](#clase-_03_registro)
-## [Clase Main](#clase-main)
-## [Clase Modelo](#clase-modelo)
+## [Clase _00_Buscar](##clase-_00_buscar)
+## [Clase _01_Agregar](##clase-_01_agregar)
+## [Clase _02_Prestamos](##clase-_02_prestamos)
+## [Clase _03_Registro](##clase-_03_registro)
+## [Clase Main](##main)
+## [Clase Modelo](##modelo)
 
 [Clase _03_Registro](##Clase-_03_registro)
 
