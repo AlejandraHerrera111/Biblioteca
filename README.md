@@ -1,6 +1,6 @@
 # Biblioteca
 
-## [Clase _00_Buscar](#clase-_00_buscar)
+## [Clase _00_Buscar](##clase-_00_buscar)
 ## [Clase _01_Agregar](#clase-_01_agregar)
 ## [Clase _02_Prestamos](#clase-_02_prestamos)
 ## [Clase _03_Registro](#clase-_03_registro)
