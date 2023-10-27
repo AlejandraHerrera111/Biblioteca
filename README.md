@@ -80,12 +80,12 @@ _00_Buscar buscador = new _00_Buscar();
 String terminoBusqueda = "novela";
 
 // Realizar la búsqueda y mostrar los resultados
-buscador.buscarMostrarLibros("biblioteca.txt", terminoBusqueda);
-
-
+buscador.buscarMostrarLibros("biblioteca.txt", terminoBusqueda);```
 
 
 ## Clase _00_Buscar
+
+
 La clase _01_Agregar es parte del proyecto y representa una interfaz de usuario que permite agregar libros a un sistema de gestión de bibliotecas. A continuación, se describen las características clave y funcionalidades de esta clase.
 
 ## Descripción
@@ -96,7 +96,7 @@ La clase _01_Agregar se utiliza para ingresar información sobre un libro, como 
 - Verificación en tiempo real para habilitar un botón de "AÑADIR" cuando los campos están rellenados.
 - Botón "AÑADIR" que permite agregar libros a la biblioteca.
 
-## Métodos y Funcionalidades
+ Métodos y Funcionalidades
 
 Dentro de esta sección, se destacan los métodos y funcionalidades clave de la clase _01_Agregar. Esto incluye:
 
