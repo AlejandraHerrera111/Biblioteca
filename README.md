@@ -180,3 +180,47 @@ La tabla se actualiza automáticamente con datos de libros disponibles desde un 
 
 Estos ejemplos de uso ilustran cómo la clase _03_Registro se integra en la aplicación y cómo los usuarios pueden interactuar con ella para gestionar libros y realizar préstamos. La clase brinda una interfaz intuitiva y funcionalidades esenciales para la administración de una biblioteca o sistema de préstamo de libros.
 
+
+## Main
+Este código pertenece al paquete Vista y contiene la clase `Main`, que es la clase principal de la aplicación.
+
+## Descripción de la Funcionalidad
+La clase `Main` es la clase principal de la aplicación. Su función principal es iniciar la aplicación y mostrar la ventana principal para realizar la búsqueda de libros. Aquí hay una descripción más detallada de su funcionalidad:
+
+- **Inicialización de Objetos:** La clase `Main` crea instancias de las clases `_00_Buscar`, `_01_Agregar`, `_02_Prestamos`, y `_03_Registro`. Estas instancias representan las diferentes partes de la aplicación, como la búsqueda de libros, la adición de nuevos libros, la gestión de préstamos y el registro de libros.
+
+- **Mostrar Ventana de Búsqueda:** Luego de inicializar los objetos, la clase `Main` hace visible la ventana de búsqueda `_00_Buscar`. Esta es la ventana principal de la aplicación que permite a los usuarios buscar libros en la base de datos.
+
+## Uso Básico
+El uso básico de la clase `Main` se limita a iniciar la aplicación y mostrar la ventana de búsqueda. A continuación, se muestra cómo se utiliza:
+
+1. Cuando se ejecuta la aplicación, la clase `Main` se inicia automáticamente debido al método `main`.
+2. Dentro del método `main`, se crean instancias de las clases `_00_Buscar`, `_01_Agregar`, `_02_Prestamos`, y `_03_Registro`.
+3. Luego, se hace visible la ventana de búsqueda `_00_Buscar` utilizando el método `setVisible(true)`. Esta ventana es la primera interfaz que se muestra a los usuarios.
+
+La funcionalidad y los detalles específicos de las otras clases, como `_00_Buscar`, `_01_Agregar`, `_02_Prestamos`, y `_03_Registro`, se implementan en esas clases individuales. Si deseas información detallada sobre esas clases, sus métodos y su funcionalidad, deberás revisar y documentar cada una por separado.
+
+## Ejemplos de Uso
+
+```java
+package Vista;
+
+import javax.swing.JFrame;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // Debes inicializar tus objetos antes de utilizarlos
+        _00_Buscar miBuscar = new _00_Buscar();
+        _01_Agregar miAgregar = new _01_Agregar();
+        _02_Prestamos miPrestamos = new _02_Prestamos();
+        _03_Registro miRegistro = new _03_Registro();
+
+        // Hacemos visible el JFrame
+        miBuscar.setVisible(true);
+    }
+}
+```
+
+
+
