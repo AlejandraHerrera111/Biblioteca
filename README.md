@@ -72,7 +72,7 @@ Si deseas contribuir a esta clase, sigue nuestras pautas de contribución en [CO
 
 #### Ejemplo de Uso
 
-```java
+java
 // Crear una instancia de la clase _00_Buscar
 _00_Buscar buscador = new _00_Buscar();
 
@@ -80,7 +80,7 @@ _00_Buscar buscador = new _00_Buscar();
 String terminoBusqueda = "novela";
 
 // Realizar la búsqueda y mostrar los resultados
-buscador.buscarMostrarLibros("biblioteca.txt", terminoBusqueda);```
+buscador.buscarMostrarLibros("biblioteca.txt", terminoBusqueda);
 
 
 ## Clase _00_Buscar
