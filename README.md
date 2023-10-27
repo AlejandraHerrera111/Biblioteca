@@ -2,15 +2,15 @@
 
 
 ## Índice
-1. [Buscar](#buscar)
-2. [Agregar](#agregar)
+1. [Clase _00_Buscar](#clase-_00_buscar)
+2. [Clase _01_Agregar](#clase-_01_agregar)
 3. [Clase _02_Prestamos](#clase-_02_prestamos)
 4. [Clase _03_Registro](#clase-_03_registro)
 5. [Main](#main)
 6. [Modelo](#modelo)
 
 
-## Buscar
+## Clase _00_Buscar
 
 
 La clase _00_Buscar es una parte fundamental de un proyecto de software o sistema de gestión de bibliotecas. En un archivo README, se puede incluir una sección que describa esta clase en particular, proporcionando información sobre su funcionalidad y cómo se relaciona con el proyecto en su conjunto.
@@ -55,7 +55,7 @@ if (prestamos.filaSeleccionada()) {
 ```
 
 
-## Agregar
+## Clase _01_Agregar
 
 La clase _01_Agregar es parte del proyecto y representa una interfaz de usuario que permite agregar libros a un sistema de gestión de bibliotecas. A continuación, se describen las características clave y funcionalidades de esta clase.
 
