@@ -1,6 +1,7 @@
 # Biblioteca
 
 ## [Agregar](#agregar)
+## [Buscar](#buscar)
 
 
 
