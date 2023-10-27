@@ -1,5 +1,8 @@
 # Biblioteca
 
+## [Clase _00_Buscar](#clase-_00_buscar)
+
+
 ## Clase _00_Buscar
 
 La clase _00_Buscar es una parte fundamental de un proyecto de software o sistema de gestión de bibliotecas. En un archivo README, se puede incluir una sección que describa esta clase en particular, proporcionando información sobre su funcionalidad y cómo se relaciona con el proyecto en su conjunto.
