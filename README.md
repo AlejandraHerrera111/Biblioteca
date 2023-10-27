@@ -222,5 +222,59 @@ public class Main {
 }
 ```
 
+## Modelo
+
+## Descripción del Código
+
+La clase `Modelo` es una parte importante de la aplicación y se encarga de gestionar la interacción con archivos y realizar operaciones relacionadas con la gestión de libros y préstamos. Aquí se proporciona una descripción detallada de los métodos y funcionalidades que implementa:
+
+## Métodos y Funcionalidades
+
+### Método `agregarLibrosAFichero`
+
+Este método permite agregar información de libros a un archivo. Aquí hay una descripción de sus componentes:
+
+- **Parámetros**: 
+  - `ruta`: La ruta del archivo en el que se agregarán los datos.
+  - `autor`, `título`, `isbn`: Información del libro que se va a agregar.
+
+- **Funcionalidad**:
+  - Crea una cadena de texto con los datos del libro y un salto de línea.
+  - Imprime información para depuración.
+  - Abre el archivo en modo "append" (agregar al final del archivo) y escribe la información del libro en el archivo.
+  
+### Método `prestaLibrosFichero`
+
+Este método permite registrar un préstamo de un libro y eliminarlo de la lista de libros disponibles. Aquí se proporciona una descripción de sus componentes:
+
+- **Parámetros**:
+  - `ruta`: La ruta del archivo que contiene la lista de libros disponibles.
+  - `ruta2`: La ruta del archivo en el que se registrará el préstamo.
+  - `titulo`, `autor`, `ISBN`: Información del libro que se va a prestar.
+
+- **Funcionalidad**:
+  - Abre el archivo de lectura de la lista de libros disponibles y el archivo de escritura en modo "append".
+  - Compara la información del libro a prestar con la información en la lista de libros disponibles.
+  - Registra el préstamo en el archivo de registro y lo elimina de la lista de libros disponibles.
+  
+### Método `devuelveLibrosFicheros`
+
+Este método permite registrar la devolución de un libro y eliminarlo del registro de préstamos. Aquí se proporciona una descripción de sus componentes:
+
+- **Parámetros**:
+  - `ruta`: La ruta del archivo original de la lista de libros disponibles.
+  - `ruta2`: La ruta del archivo de registro de préstamos.
+  - `titulo2`, `autor2`, `ISBN2`: Información del libro que se va a devolver.
+
+- **Funcionalidad**:
+  - Abre el archivo de registro de préstamos para lectura y el archivo original de la lista de libros disponibles para escritura en modo "append".
+  - Compara la información del libro a devolver con la información en el registro de préstamos.
+  - Registra la devolución en el archivo original y lo elimina del registro de préstamos.
+
+## Uso
+
+La clase `Modelo` se utiliza para llevar a cabo operaciones de gestión de libros y préstamos en la aplicación. Los métodos `agregarLibrosAFichero`, `prestaLibrosFichero` y `devuelveLibrosFicheros` se llaman desde otras partes de la aplicación, como la clase `_03_Registro`, para realizar las operaciones necesarias.
+
+La clase `Modelo` proporciona funcionalidades esenciales para mantener y actualizar la información de libros disponibles y registros de préstamos. Esto facilita la gestión de la biblioteca o sistema de préstamo de libros en la aplicación.
 
 
