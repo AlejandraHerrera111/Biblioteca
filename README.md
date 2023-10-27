@@ -2,6 +2,7 @@
 
 ## [Clase _00_Buscar](#clase-_00_buscar)
 ## [Clase _01_Agregar](#clase-_01_agregar)
+Clase _01_Agregar
 
 
 
