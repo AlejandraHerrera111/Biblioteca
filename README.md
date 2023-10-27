@@ -97,7 +97,7 @@ Para agregar un nuevo libro a la biblioteca, sigue estos pasos:
 Nota: Asegúrate de que todos los campos estén rellenados antes de hacer clic en "AÑADIR" para evitar errores.
 
 
-# Clase _02_Prestamos
+## Clase _02_Prestamos
 
 La clase `_02_Prestamos` forma parte de la aplicación de gestión de bibliotecas y se encarga de la gestión de préstamos de libros. A continuación, se describen sus características y funcionalidades clave.
 
