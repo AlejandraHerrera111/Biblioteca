@@ -54,25 +54,6 @@ Si deseas contribuir a esta clase, sigue nuestras pautas de contribución en [CO
 
 #### Ejemplo de Uso
 
-### Clase `_00_Buscar`
-
-La clase `_00_Buscar` es una parte fundamental de nuestro sistema de gestión de bibliotecas. Permite a los usuarios buscar libros en nuestra biblioteca y ver los resultados en una interfaz amigable.
-
-#### Métodos y Funcionalidades
-
-- `getTxtBuscar()`: Este método recopila el término de búsqueda ingresado por el usuario.
-- `buscarMostrarLibros()`: Realiza la búsqueda de libros en nuestra base de datos y muestra los resultados en la tabla de la interfaz.
-
-#### Uso
-
-Para buscar libros en nuestra biblioteca, simplemente ingresa las palabras clave en el campo de búsqueda y haz clic en el botón de búsqueda. Los resultados se mostrarán en la tabla de resultados.
-
-#### Contribución
-
-Si deseas contribuir a esta clase, sigue nuestras pautas de contribución en [CONTRIBUTING.md](CONTRIBUTING.md).
-
-#### Ejemplo de Uso
-
 java
 // Crear una instancia de la clase _00_Buscar
 _00_Buscar buscador = new _00_Buscar();
@@ -134,3 +115,42 @@ Para agregar un nuevo libro a la biblioteca, sigue estos pasos:
 
 Nota: Asegúrate de que todos los campos estén rellenados antes de hacer clic en "AÑADIR" para evitar errores.
 
+
+# Clase _02_Prestamos
+
+La clase `_02_Prestamos` forma parte de la aplicación de gestión de bibliotecas y se encarga de la gestión de préstamos de libros. A continuación, se describen sus características y funcionalidades clave.
+
+## Descripción
+
+La clase `_02_Prestamos` permite a los usuarios realizar las siguientes acciones:
+
+- Ver una lista de los libros prestados.
+- Marcar libros como devueltos.
+- Interactuar con la base de datos de préstamos.
+
+## Métodos y Funcionalidades
+
+Dentro de esta sección, se destacan los métodos y funcionalidades clave de la clase `_02_Prestamos`. Esto incluye:
+
+- `actualizarPrestamos(String filePath, String fechaFormateada)`: Un método que actualiza la lista de préstamos en la interfaz gráfica y muestra la fecha de préstamo.
+- `filaSeleccionada()`: Un método que verifica si se ha seleccionado una fila en la tabla y habilita o deshabilita el botón de devolución.
+- `borrarCampos()`: Un método para eliminar filas seleccionadas en la tabla.
+
+## Uso
+
+En esta sección del documento, se puede explicar cómo los usuarios pueden utilizar la clase `_02_Prestamos` para gestionar los préstamos de libros. Puedes proporcionar ejemplos de interacción con la interfaz de usuario y cómo se devuelven los libros.
+
+## Ejemplo de Uso
+
+```java
+// Crear una instancia de la clase _02_Prestamos
+_02_Prestamos prestamos = new _02_Prestamos();
+
+// Actualizar la lista de préstamos y mostrar la fecha de préstamo
+prestamos.actualizarPrestamos("prestamos.txt", "2023-10-25");
+
+// Verificar si una fila está seleccionada y habilitar la devolución
+if (prestamos.filaSeleccionada()) {
+    // Realizar la devolución de libros
+    prestamos.borrarCampos();
+}
