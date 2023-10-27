@@ -82,36 +82,38 @@ buscador.buscarMostrarLibros("biblioteca.txt", terminoBusqueda);
 
 
 
-## Clase _01_Agregar
 
-La clase `_01_Agregar` es parte del proyecto y representa una interfaz de usuario que permite agregar libros a un sistema de gestión de bibliotecas. A continuación, se describen las características clave y funcionalidades de esta clase.
 
-### Descripción
+# Clase _01_Agregar
 
-La clase `_01_Agregar` se utiliza para ingresar información sobre un libro, como título, autor e ISBN, en un sistema de gestión de bibliotecas. Ofrece las siguientes características:
+La clase _01_Agregar es parte del proyecto y representa una interfaz de usuario que permite agregar libros a un sistema de gestión de bibliotecas. A continuación, se describen las características clave y funcionalidades de esta clase.
+
+## Descripción
+
+La clase _01_Agregar se utiliza para ingresar información sobre un libro, como título, autor e ISBN, en un sistema de gestión de bibliotecas. Ofrece las siguientes características:
 
 - Campos de texto para ingresar el título del libro, el autor y el ISBN.
 - Verificación en tiempo real para habilitar un botón de "AÑADIR" cuando los campos están rellenados.
 - Botón "AÑADIR" que permite agregar libros a la biblioteca.
 
-### Métodos y Funcionalidades
+## Métodos y Funcionalidades
 
-Dentro de esta sección, se destacan los métodos y funcionalidades clave de la clase `_01_Agregar`. Esto incluye:
+Dentro de esta sección, se destacan los métodos y funcionalidades clave de la clase _01_Agregar. Esto incluye:
 
 - `getTxTitulo()`: Un método que recopila el título del libro ingresado en el campo de texto.
 - `getTxtAutor()`: Un método que recopila el autor del libro ingresado en el campo de texto.
 - `getTxtISBN()`: Un método que recopila el ISBN del libro ingresado en el campo de texto.
 - `camposRellenos()`: Un método que verifica si los campos de texto están rellenados y habilita el botón "AÑADIR" en consecuencia.
 
-### Uso
+## Uso
 
-En esta sección del README, se puede explicar cómo los usuarios pueden utilizar la clase `_01_Agregar` para agregar libros al sistema. Puedes proporcionar ejemplos de cómo interactuar con la interfaz de usuario y cómo se activa el botón "AÑADIR" cuando los campos están completos.
+En esta sección del README, se puede explicar cómo los usuarios pueden utilizar la clase _01_Agregar para agregar libros al sistema. Puedes proporcionar ejemplos de cómo interactuar con la interfaz de usuario y cómo se activa el botón "AÑADIR" cuando los campos están completos.
 
-### Contribución
+## Contribución
 
-Si el proyecto es de código abierto y acepta contribuciones, puedes incluir información sobre cómo otros desarrolladores pueden contribuir a la clase `_01_Agregar`. Esto podría incluir pautas para enviar cambios y el proceso de revisión.
+Si el proyecto es de código abierto y acepta contribuciones, puedes incluir información sobre cómo otros desarrolladores pueden contribuir a la clase _01_Agregar. Esto podría incluir pautas para enviar cambios y el proceso de revisión.
 
-### Ejemplo de Uso
+## Ejemplo de Uso
 
 Para agregar un nuevo libro a la biblioteca, sigue estos pasos:
 
@@ -128,9 +130,7 @@ Para agregar un nuevo libro a la biblioteca, sigue estos pasos:
 
 5. El libro se guardará en la base de datos y estará disponible para su consulta.
 
-¡Listo! Has agregado un nuevo libro a la biblioteca utilizando la clase `_01_Agregar`.
+¡Listo! Has agregado un nuevo libro a la biblioteca utilizando la clase _01_Agregar.
 
 Nota: Asegúrate de que todos los campos estén rellenados antes de hacer clic en "AÑADIR" para evitar errores.
-
-
 
