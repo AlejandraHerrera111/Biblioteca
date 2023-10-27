@@ -35,15 +35,19 @@ Si tu proyecto es de código abierto y acepta contribuciones, puedes incluir inf
 
 #### Ejemplo de Uso
 
-java
-// Crear una instancia de la clase _00_Buscar
-_00_Buscar buscador = new _00_Buscar();
+```java
+// Crear una instancia de la clase _02_Prestamos
+_02_Prestamos prestamos = new _02_Prestamos();
 
-// Ingresar un término de búsqueda
-String terminoBusqueda = "novela";
+// Actualizar la lista de préstamos y mostrar la fecha de préstamo
+prestamos.actualizarPrestamos("prestamos.txt", "2023-10-25");
 
-// Realizar la búsqueda y mostrar los resultados
-buscador.buscarMostrarLibros("biblioteca.txt", terminoBusqueda);
+// Verificar si una fila está seleccionada y habilitar la devolución
+if (prestamos.filaSeleccionada()) {
+    // Realizar la devolución de libros
+    prestamos.borrarCampos();
+}
+```
 
 
 ## Clase _01_Agregar
@@ -135,3 +139,6 @@ if (prestamos.filaSeleccionada()) {
     // Realizar la devolución de libros
     prestamos.borrarCampos();
 }
+´´´
+
+
