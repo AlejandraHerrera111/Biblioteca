@@ -1,6 +1,8 @@
 # Biblioteca
 
 ## [Clase _00_Buscar](#clase-_00_buscar)
+## [Clase _01_Agregar](#clase-_01_agregar)
+
 
 
 ## Clase _00_Buscar
@@ -83,9 +85,7 @@ buscador.buscarMostrarLibros("biblioteca.txt", terminoBusqueda);
 
 
 
-
-# Clase _01_Agregar
-
+## Clase _00_Buscar
 La clase _01_Agregar es parte del proyecto y representa una interfaz de usuario que permite agregar libros a un sistema de gestión de bibliotecas. A continuación, se describen las características clave y funcionalidades de esta clase.
 
 ## Descripción
