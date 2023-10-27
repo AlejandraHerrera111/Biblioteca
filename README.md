@@ -1,13 +1,7 @@
 # Biblioteca
 
-## [Buscar](#buscar)
 ## [Agregar](#agregar)
-## [Clase _02_Prestamos](#clase-_02_prestamos)
-## [Clase _03_Registro](#clase-_03_registro)
-## [Clase Main](##main)
-## [Clase Modelo](##modelo)
 
-[Agregar](#agregar)
 
 
 - [Agregar](#agregar)
