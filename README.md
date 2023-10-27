@@ -7,7 +7,7 @@
 ## [Clase Main](##main)
 ## [Clase Modelo](##modelo)
 
-[Ir a la Clase _01_Agregar](#clase-_01_agregar)
+[Agregar](#agregar)
 
 
 - [Agregar](#agregar)
