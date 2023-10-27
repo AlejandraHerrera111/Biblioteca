@@ -80,6 +80,8 @@ String terminoBusqueda = "novela";
 // Realizar la búsqueda y mostrar los resultados
 buscador.buscarMostrarLibros("biblioteca.txt", terminoBusqueda);
 
+
+
 ## Clase _01_Agregar
 
 La clase `_01_Agregar` es parte del proyecto y representa una interfaz de usuario que permite agregar libros a un sistema de gestión de bibliotecas. A continuación, se describen las características clave y funcionalidades de esta clase.
